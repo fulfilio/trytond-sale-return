@@ -46,5 +46,5 @@ class ProductTemplate:
         """
         if self.return_policy:
             return self.return_policy.id
-        elif self.category and self.category.return_policy:
-            return self.category.return_policy.id
+        elif self.account_category and self.account_category.return_policy:
+            return self.account_category.return_policy.id
